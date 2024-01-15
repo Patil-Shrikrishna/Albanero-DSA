@@ -6,7 +6,7 @@
 // Input - 123
 // reversed integer - 321
 // prime factors of 321 are 3 and 107
-// output - Yes - [3,107]
+// output - Yes - [3, 107]
 // Example 2:
 // Input - 1500
 // reversed Integre - 51
@@ -30,8 +30,7 @@ function reverseNum(num) {
 }
 // let reverse = reverseNum(123);
 // let reverse = reverseNum(1500);
-let reverse = reverseNum(1000);
-console.log("Reverse: ", reverse);
+let reverse = reverseNum(123);
 
 function checkPrime(num) {
   let primeFactor = [];
@@ -40,7 +39,7 @@ function checkPrime(num) {
       primeFactor.push(i);
     }
   }
-  return primeFactor.length ? `YES - ${primeFactor}` : "NO";
+  return primeFactor.length ? `YES - [${primeFactor}]` : "NO";
 }
 let result = checkPrime(reverse);
 console.log(result);
