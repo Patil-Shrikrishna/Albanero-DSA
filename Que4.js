@@ -28,4 +28,4 @@ function largestNumber(nums) {
 // let nums = [3, 30, 34, 5, 9];
 let nums = [10, 2];
 let result = largestNumber(nums);
-console.log(result);
+console.log(result.join(""));
